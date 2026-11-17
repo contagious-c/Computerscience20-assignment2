@@ -33,9 +33,9 @@ class Main
 
         System.out.println(" ");
         System.out.println("Initial Distances");
-        System.out.println("The distance between Kart 1 and Kart 2  is: " + (kart1.distTo(kart2)));
-        System.out.println("The distance between Kart 1 and Kart 3  is: " + (kart1.distTo(kart3)));
-        System.out.println("The distance between Kart 2 and Kart 3  is: " + (kart2.distTo(kart3)));
+        System.out.println("The distance between Kart 1 and Kart 2  is: " + (kart1.distTo(kart2)) + " Meters.");
+        System.out.println("The distance between Kart 1 and Kart 3  is: " + (kart1.distTo(kart3)) + " Meters.");
+        System.out.println("The distance between Kart 2 and Kart 3  is: " + (kart2.distTo(kart3)) + " Meters.");
 
         System.out.println(" ");
         System.out.println("New positions: ");
@@ -50,8 +50,8 @@ class Main
 
         System.out.println(" ");
         System.out.println("new Distances");
-        System.out.println("The distance between Kart 1 and Kart 2  is: " + (kart1.distTo(kart2)));
-        System.out.println("The distance between Kart 1 and Kart 3  is: " + (kart1.distTo(kart3)));
-        System.out.println("The distance between Kart 2 and Kart 3  is: " + (kart2.distTo(kart3)));
+        System.out.println("The distance between Kart 1 and Kart 2  is: " + (kart1.distTo(kart2)) + " Meters.");
+        System.out.println("The distance between Kart 1 and Kart 3  is: " + (kart1.distTo(kart3)) + " Meters.");
+        System.out.println("The distance between Kart 2 and Kart 3  is: " + (kart2.distTo(kart3)) + " Meters.");
     }
 }
